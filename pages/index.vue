@@ -5,19 +5,22 @@
         <div>
           <!--<app-logo/>-->
           <h2 class="subtitle">
-            Please, please look at my maps and map-related accessories.
+            I'm Dan. I'm an urban planner. I like to make maps.
           </h2>
         </div>
+        <nuxt-link to="./projects/jpn.atlas.vue"><app-project/></nuxt-link>
       </section>
   </div>
 </template>
 
 <script>
 import AppLogo from '~/components/AppLogo.vue'
-import appHeader from '~/components/Header.vue'
+import AppHeader from '~/components/Header.vue'
+import AppProject from '~/components/Project.vue'
 export default {
   components: {
-    'app-header': appHeader ,
+    'app-project': AppProject,
+    'app-header': AppHeader ,
     AppLogo
   }
 }
@@ -25,7 +28,7 @@ export default {
 
 <style>
 .container {
-  min-height: 50vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
