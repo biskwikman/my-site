@@ -1,9 +1,10 @@
 <template>
   <div class=Header>
-    <h1 class="HeaderTitle">{{ headerTitle }}</h1>
+    <nuxt-link to="/" style="text-decoration:none"><h1 class="HeaderTitle">{{ headerTitle }}</h1></nuxt-link>
     <div class="HeaderLinks">
       <a href="https://medium.com/@djosephhenri"><img src="../static/Monogram.svg" width="20px" height="20px"></a>
-      <a href="https://github.com/biskwikman"><img src="../static/GitHub-Mark-120px-plus.png" width="20px" height="20px" ></a>
+      <a href="https://github.com/biskwikman"><img src="../static/GitHub-Mark-120px-plus.png" width="20px" height="20px"></a>
+      <a href="https://twitter.com/biskwikman"><img src="../static/twitter.png" width="20px" height="20px"></a>
     </div>
   </div>
 </template>
