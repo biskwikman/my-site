@@ -1,6 +1,6 @@
 <template>
   <div class="card">
-    <div class="thumbnail" style="background-image: url('https://i.imgur.com/r9COBCz.png')"></div>
+    <div class="thumbnail"></div>
   </div>
 </template>
 
@@ -11,12 +11,12 @@
   width : 50vh;
   box-shadow: 2px 2px 10px grey;
   flex-basis: 30px;
+  transition: 0.3s;
+  background-color: #e0e0e0;
 }
 
-.thumbnail {
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: 100%;
+.card:hover {
+  height: 38.5vh;
+  width : 55vh;
 }
 </style>

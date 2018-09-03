@@ -5,10 +5,10 @@
       <section class="container intro">
         <div>
           <h1 class="title">
-            I'm Dan. I'm an urban planner and I like to make maps.
+            マップを作るのが好きな都市計画者です
           </h1>
           <h2 class="subtitle">
-            Check out some of the things I'm working on below.
+            下記のプロジェクトを見てください
           </h2>
           <i class="arrow down"></i>
         </div>
