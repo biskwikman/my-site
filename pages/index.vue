@@ -59,6 +59,9 @@ export default {
 }
 
 .bgcolor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   background-image: linear-gradient(#d3efff, #83d0fc);
 }
 
@@ -77,6 +80,7 @@ export default {
 .container.projects {
   min-height: 50vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   text-align: center;
