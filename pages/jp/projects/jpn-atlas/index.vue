@@ -4,7 +4,7 @@
     <div class="container">
       <div class="project-description">
         <h6 class="wording">
-          <strong>jpn-atlas</strong> is a tool published through NPM which delivers ready to use boundary data for Japanese municipalities, prefectures, and the country itself. Published in TopoJSON for use on the web. For more info, check out the <strong><a href="https://www.npmjs.com/package/jpn-atlas">NPM page</a></strong>, <strong><a href="https://github.com/biskwikman/jpn-atlas">Github repo</a></strong>  or get the data directly from <strong><a href="https://unpkg.com/jpn-atlas/">UNPKG</a></strong>.
+          <strong>jpn-atlas</strong> はNPMで公開されたツールです。ウェブのためにTopoJSONフォームで国、都道府県と地方公共団体の境界データを届いています。詳細については<strong><a href="https://www.npmjs.com/package/jpn-atlas">NPMページ</a></strong>か<strong><a href="https://github.com/biskwikman/jpn-atlas">Githubリポジトリ</a></strong>を見てください。または<strong><a href="https://unpkg.com/jpn-atlas/">UNPKG</a></strong>からデータを受け取れます。
         </h6>
       </div>
       <div class="link-pic">

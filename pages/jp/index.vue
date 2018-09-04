@@ -5,7 +5,7 @@
       <section class="container intro">
         <div>
           <h1 class="title">
-            マップを作るのが好きな都市計画者です
+            私はマップを作るのが好きな都市計画者です
           </h1>
           <h2 class="subtitle">
             下記のプロジェクトを見てください
@@ -74,7 +74,7 @@ export default {
 }
 
 .projects > * {
-  padding: 20px;
+  padding: 15px;
 }
 
 .container.projects {

@@ -5,7 +5,7 @@
       <section class="container intro">
         <div>
           <h1 class="title">
-            I'm Dan. I'm an urban planner and I like to make maps.
+            I'm an urban planner and I like to make maps.
           </h1>
           <h2 class="subtitle">
             Check out some of the things I'm working on below.
@@ -74,7 +74,7 @@ export default {
 }
 
 .projects > * {
-  padding: 20px;
+  padding: 15px;
 }
 
 .container.projects {
