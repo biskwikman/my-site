@@ -55,9 +55,9 @@ export default {
 .wording {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 200;
-  font-size: 28px;
+  font-size: 25px;
+  line-height: 1.8;
   color: #526488;
-  word-spacing: 5px;
   text-align: center;
   padding-top: 8vh;
 }

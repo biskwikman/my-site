@@ -1,6 +1,7 @@
 <template>
   <div>
     <app-header/>
+    <!--<div class="bgcolor">-->
     <div class="container">
       <div class="project-description">
         <h6 class="wording">
@@ -11,6 +12,7 @@
         <div class ="thumbnail" style="background-image: url('https://i.imgur.com/Xux6n6C.png')"></div>
       </div>
     </div>
+    <!--</div>-->
   </div>
 </template>
 
@@ -28,25 +30,42 @@ export default {
 
 <style scoped>
 
+/*.bgcolor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background-image: linear-gradient(#d3efff, #83d0fc);
+}*/
+
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: flex-start;
+  min-height: 90.6vh;
   background-image: linear-gradient(#d3efff, #83d0fc);
 }
 
+.container > * {
+  margin: 10px;
+}
+
 .project-description {
+  display: flex;
   justify-content: center;
-  width: 30vw;
-  height: 40vh;
+  width: 400px;
+  height: 85vh;
 }
 
 .link-pic {
-  width: 40vw;
-  height: 90.6vh;
+  display: flex;
+  width: 500px;
+  height: 85vh;
 }
 
 .link-pic .thumbnail {
+  background-position: center;
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -55,9 +74,10 @@ export default {
 .wording {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 200;
-  font-size: 28px;
+  font-size: 25px;
   color: #526488;
   word-spacing: 5px;
+  line-height: 1.2;
   text-align: center;
   padding-top: 8vh;
 }
