@@ -15,7 +15,7 @@
         </section>
       <section class="container projects">
         <nuxt-link to="./projects/jpn-atlas"><app-project id="prone"></app-project></nuxt-link>
-        <nuxt-link to="./projects/"><app-project id="prtwo"></app-project></nuxt-link>
+        <nuxt-link to="./projects/toyota-pop-density"><app-project id="prtwo"></app-project></nuxt-link>
         <nuxt-link to="./projects/"><app-project id="prthree"></app-project></nuxt-link>
       </section>
       </div>
@@ -62,7 +62,7 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-image: linear-gradient(#d3efff, #83d0fc);
+  background-image: linear-gradient(#ffffff, #a7d0e8);
 }
 
 .container.intro {

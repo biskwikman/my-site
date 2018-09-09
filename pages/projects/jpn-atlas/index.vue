@@ -1,7 +1,6 @@
 <template>
   <div>
     <app-header/>
-    <!--<div class="bgcolor">-->
     <div class="container">
       <div class="project-description">
         <h6 class="wording">
@@ -12,7 +11,6 @@
         <div class ="thumbnail" style="background-image: url('https://i.imgur.com/Xux6n6C.png')"></div>
       </div>
     </div>
-    <!--</div>-->
   </div>
 </template>
 
@@ -30,21 +28,13 @@ export default {
 
 <style scoped>
 
-/*.bgcolor {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  background-image: linear-gradient(#d3efff, #83d0fc);
-}*/
-
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
   min-height: 90.6vh;
-  background-image: linear-gradient(#d3efff, #83d0fc);
+  background-image: linear-gradient(#ffffff, #a7d0e8);
 }
 
 .container > * {
@@ -55,13 +45,14 @@ export default {
   display: flex;
   justify-content: center;
   width: 400px;
-  height: 85vh;
+  height: auto;
 }
 
 .link-pic {
   display: flex;
   width: 500px;
   height: 85vh;
+  margin-top: 8vh;
 }
 
 .link-pic .thumbnail {

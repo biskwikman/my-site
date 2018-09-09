@@ -4,11 +4,11 @@
     <div class="container">
       <div class="project-description">
         <h6 class="wording">
-          <strong>jpn-atlas</strong> はNPMで公開されたツールです。ウェブのためにTopoJSONフォームで国、都道府県と地方公共団体の境界データを届いています。詳細については<strong><a href="https://www.npmjs.com/package/jpn-atlas">NPMページ</a></strong>か<strong><a href="https://github.com/biskwikman/jpn-atlas">Githubリポジトリ</a></strong>を見てください。または<strong><a href="https://unpkg.com/jpn-atlas/">UNPKG</a></strong>からデータを受け取れます。
+          Below is a population density map of Toyota City, Japan. This was made mostly using the newline delimited JSON NPM tool, <a href="https://www.npmjs.com/package/ndjson-cli"><strong>ndjson-cli</strong></a>, in the command line. Which in its own way allow you to manipulate data in Javascript like you would in Python Pandas or R. To follow the process I used for this, check out my <a href="https://medium.com/@djosephhenri/creating-a-population-density-map-of-toyota-city-japan-using-d3-geos-cli-and-some-other-stuff-705632a55e8f"><strong>blog</strong></a>. I've recorded each step, except for the legend, which is just html and css.
         </h6>
       </div>
       <div class="link-pic">
-        <div class ="thumbnail" style="background-image: url('https://i.imgur.com/Xux6n6C.png')"></div>
+        <div class ="thumbnail" style="background-image: url('https://i.imgur.com/grIkcJf.png')"></div>
       </div>
     </div>
   </div>
@@ -38,26 +38,25 @@ export default {
 }
 
 .container > * {
-  margin: 10px;
+  margin: 40px;
 }
 
 .project-description {
   display: flex;
   justify-content: center;
-  width: 400px;
-  height: auto;
+  width: 100vw;
 }
 
 .link-pic {
   display: flex;
-  width: 40vw;
-  height: 85vh;
-  margin-top: 8vh;
+  width: 100vw;
+  height: 100vh;
 }
 
 .link-pic .thumbnail {
   background-position: center;
-  background-size: cover;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
   width: 100%;
   height: 100%;
 }
@@ -66,8 +65,9 @@ export default {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 200;
   font-size: 25px;
-  line-height: 1.8;
   color: #526488;
+  word-spacing: 5px;
+  line-height: 1.2;
   text-align: center;
   padding-top: 8vh;
 }
