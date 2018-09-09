@@ -15,7 +15,7 @@
         </section>
       <section class="container projects">
         <nuxt-link to="./projects/jpn-atlas"><app-project id="prone"></app-project></nuxt-link>
-        <nuxt-link to="./projects/"><app-project id="prtwo"></app-project></nuxt-link>
+        <nuxt-link to="./projects/toyota-pop-density"><app-project id="prtwo"></app-project></nuxt-link>
         <nuxt-link to="./projects/"><app-project id="prthree"></app-project></nuxt-link>
       </section>
       </div>
