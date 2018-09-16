@@ -16,7 +16,7 @@
       <section class="container projects">
         <nuxt-link to="./projects/jpn-atlas"><app-project id="prone"></app-project></nuxt-link>
         <nuxt-link to="./projects/toyota-pop-density"><app-project id="prtwo"></app-project></nuxt-link>
-        <nuxt-link to="./projects/"><app-project id="prthree"></app-project></nuxt-link>
+        <nuxt-link to="./projects/detroit-poverty"><app-project id="prthree"></app-project></nuxt-link>
       </section>
       </div>
   </div>
@@ -35,7 +35,7 @@ export default {
 
 <style>
 #prone .thumbnail {
-  background-image: url('https://i.imgur.com/Xux6n6C.png');
+  background-image: url('https://raw.githubusercontent.com/biskwikman/my-cdn/master/my-site/jpn-atlas.png');
   background-position: 50% 5%;
   background-size: 75vh 52.5vh;
   width: 100%;
@@ -43,7 +43,7 @@ export default {
 }
 
 #prtwo .thumbnail {
-  background-image: url('https://i.imgur.com/grIkcJf.png');
+  background-image: url('https://raw.githubusercontent.com/biskwikman/my-cdn/master/my-site/toyota-dens.png');
   background-position:center;
   background-size: cover;
   width: 100%;
@@ -51,7 +51,7 @@ export default {
 }
 
 #prthree .thumbnail {
-  background-image: url('https://i.imgur.com/6rlc7E9.png');
+  background-image: url('https://raw.githubusercontent.com/biskwikman/my-cdn/master/my-site/detroit-pov.png');
   background-position:center;
   background-size: cover;
   width: 100%;

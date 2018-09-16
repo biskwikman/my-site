@@ -8,7 +8,7 @@
         </h6>
       </div>
       <div class="link-pic">
-        <div class ="thumbnail" style="background-image: url('https://i.imgur.com/Xux6n6C.png')"></div>
+        <div class ="thumbnail" style="background-image: url('https://raw.githubusercontent.com/biskwikman/my-cdn/master/my-site/jpn-atlas.png')"></div>
       </div>
     </div>
   </div>
