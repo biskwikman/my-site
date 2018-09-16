@@ -62,7 +62,8 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  background-image: linear-gradient(#ffffff, #a7d0e8);
+  /*background-image: linear-gradient(#ffffff, #a7d0e8);*/
+  background-color: white;
 }
 
 .container.intro {

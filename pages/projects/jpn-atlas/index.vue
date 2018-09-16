@@ -34,7 +34,8 @@ export default {
   justify-content: center;
   align-items: flex-start;
   min-height: 90.6vh;
-  background-image: linear-gradient(#ffffff, #a7d0e8);
+  /*background-image: linear-gradient(#ffffff, #a7d0e8);*/
+  background-color: white;
 }
 
 .container > * {

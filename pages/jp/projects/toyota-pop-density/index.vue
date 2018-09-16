@@ -4,7 +4,7 @@
     <div class="container">
       <div class="project-description">
         <h6 class="wording">
-          下は population density map of Toyota City, Japan. This was made mostly using the newline delimited JSON NPM tool, <a href="https://www.npmjs.com/package/ndjson-cli"><strong>ndjson-cli</strong></a>, in the command line. Which in its own way allow you to manipulate data in Javascript like you would in Python Pandas or R. To follow the process I used for this, check out my <a href="https://medium.com/@djosephhenri/creating-a-population-density-map-of-toyota-city-japan-using-d3-geos-cli-and-some-other-stuff-705632a55e8f"><strong>blog</strong></a>. I've recorded each step, except for the legend, which is just html and css.
+          下は豊田市の人口密度が表示される地図です。このちずはだいたい<a href="https://www.npmjs.com/package/ndjson-cli"><strong>ndjson-cli</strong></a>というツールで作られて、SVGで表示されています。ndjson-cliを使ってJSONデータが処理できる。この地図のくわしい作り方に興味があったら僕の<a href="https://medium.com/@djosephhenri/creating-a-population-density-map-of-toyota-city-japan-using-d3-geos-cli-and-some-other-stuff-705632a55e8f"><strong>ブログ</strong></a>をみてください。
         </h6>
       </div>
       <div class="link-pic">
@@ -12,7 +12,7 @@
       </div>
       <div class="legend">
         <div class="legend-title">
-          <p>People per Hectare (10000 square meters)</p>
+          <p>人/ヘクタール(10000平方メートル)</p>
         </div>
         <div class="symbols">
           <div class="color 1" style="background-color: #fff7ec"></div>
@@ -59,7 +59,8 @@ export default {
   justify-content: center;
   align-items: flex-start;
   height: auto;
-  background-image: linear-gradient(#ffffff, #a7d0e8);
+  /*background-image: linear-gradient(#ffffff, #a7d0e8);*/
+  background-color: white;
 }
 
 .project-description {

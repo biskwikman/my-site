@@ -4,7 +4,7 @@
     <div class="container">
       <div class="project-description">
         <h6 class="wording">
-          Below is a population density map of Toyota City, Japan. This was made mostly using the newline delimited JSON NPM tool, <a href="https://www.npmjs.com/package/ndjson-cli"><strong>ndjson-cli</strong></a>, in the command line. Which in its own way allow you to manipulate data in Javascript like you would in Python Pandas or R. To follow the process I used for this, check out my <a href="https://medium.com/@djosephhenri/creating-a-population-density-map-of-toyota-city-japan-using-d3-geos-cli-and-some-other-stuff-705632a55e8f"><strong>blog</strong></a>. I've recorded each step, except for the legend, which is just html and css.
+          Below is a population density map of Toyota City, Japan. This was made mostly using the newline delimited JSON NPM tool, <a href="https://www.npmjs.com/package/ndjson-cli"><strong>ndjson-cli</strong></a>, in the command line. Which in its own way allow you to manipulate data in Javascript like you would in Python Pandas or R. To follow the process I used for this, check out my <a href="https://medium.com/@djosephhenri/creating-a-population-density-map-of-toyota-city-japan-using-d3-geos-cli-and-some-other-stuff-705632a55e8f"><strong>blog</strong></a> where I've recorded each step in detal.
         </h6>
       </div>
       <div class="link-pic">
@@ -59,7 +59,8 @@ export default {
   justify-content: center;
   align-items: flex-start;
   height: auto;
-  background-image: linear-gradient(#ffffff, #a7d0e8);
+  /*background-image: linear-gradient(#ffffff, #a7d0e8);*/
+  background-color: white;
 }
 
 .project-description {
