@@ -17,6 +17,7 @@
         <nuxt-link to="./projects/jpn-atlas"><app-project id="prone"></app-project></nuxt-link>
         <nuxt-link to="./projects/toyota-pop-density"><app-project id="prtwo"></app-project></nuxt-link>
         <nuxt-link to="./projects/detroit-poverty"><app-project id="prthree"></app-project></nuxt-link>
+        <a href="https://biskwikman.github.io/projects/jpn-noncitizen/"><app-project id="prfour"></app-project></a>
       </section>
       </div>
   </div>
@@ -44,7 +45,7 @@ export default {
 
 #prtwo .thumbnail {
   background-image: url('https://raw.githubusercontent.com/biskwikman/my-cdn/master/my-site/toyota-dens.png');
-  background-position:center;
+  background-position: center;
   background-size: cover;
   width: 100%;
   height: 100%;
@@ -52,7 +53,15 @@ export default {
 
 #prthree .thumbnail {
   background-image: url('https://raw.githubusercontent.com/biskwikman/my-cdn/master/my-site/detroit-pov.png');
-  background-position:center;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#prfour .thumbnail {
+  background-image: url('https://github.com/biskwikman/jpn-non-citizen-map/raw/master/images/noncitizen-image.png');
+  background-position: center;
   background-size: cover;
   width: 100%;
   height: 100%;
