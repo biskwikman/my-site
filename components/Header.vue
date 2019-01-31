@@ -3,6 +3,7 @@
     <nuxt-link to="/" style="text-decoration:none"><h1 class="HeaderTitle">{{ headerTitle }}</h1></nuxt-link>
     <p><nuxt-link class="lang" to="/" style="text-decoration:none">Eng</nuxt-link>/<nuxt-link class="lang" to="/jp/" style="text-decoration:none">日本語</nuxt-link></p>
     <div class="HeaderLinks">
+      <a href="https://qiita.com/biskwikman"><img src="../static/qiita-rect.png" height="20px"></a>
       <a href="https://medium.com/@djosephhenri"><img src="../static/Monogram.svg" width="20px" height="20px"></a>
       <a href="https://github.com/biskwikman"><img src="../static/GitHub-Mark-120px-plus.png" width="20px" height="20px"></a>
       <a href="https://twitter.com/biskwikman"><img src="../static/twitter.png" width="20px" height="20px"></a>
