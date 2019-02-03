@@ -5,7 +5,7 @@
       <section class="container intro">
         <div>
           <h1 class="title">
-            私はマップを作るのが好きな都市計画者です
+            私はマップを作るのが好きな都市計画家です
           </h1>
           <h2 class="subtitle">
             下記のプロジェクトを見てください
@@ -97,7 +97,7 @@ export default {
 }
 
 .title {
-  font-family: "Sawarabi Mincho", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "M PLUS Rounded 1c", "Source Sans Pro", -apple-system,BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 300;
   font-size: 42px;
   color: #526488;
@@ -106,7 +106,7 @@ export default {
 }
 
 .subtitle {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "M PLUS Rounded 1c", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 200;
   font-size: 28px;
   color: #526488;

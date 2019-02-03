@@ -85,14 +85,16 @@ export default {
 }
 
 .wording {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "M PLUS Rounded 1c", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 200;
   font-size: 25px;
   color: #526488;
   word-spacing: 5px;
-  line-height: 1.2;
+  line-height: 1.7;
   text-align: center;
   padding-top: 8vh;
+  word-break: break-all;
+
 }
 
 a {
