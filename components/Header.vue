@@ -39,7 +39,7 @@
 }
 
 .HeaderTitle {
-  font-family: "Sawarabi Mincho", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
+  font-family: Quicksand, "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
   font-weight: 200;
   font-size: 5vh;
   color: #35495e;

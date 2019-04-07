@@ -5,7 +5,7 @@
       <section class="container intro">
         <div>
           <h1 class="title">
-            I'm an urban planner and I like to make maps.
+            I make maps and map accessories
           </h1>
           <h2 class="subtitle">
             Check out some of the things I'm working on below.
@@ -18,6 +18,7 @@
         <nuxt-link to="./projects/toyota-pop-density"><app-project id="prtwo"></app-project></nuxt-link>
         <nuxt-link to="./projects/detroit-poverty"><app-project id="prthree"></app-project></nuxt-link>
         <a href="https://biskwikman.github.io/projects/jpn-noncitizen/"><app-project id="prfour"></app-project></a>
+        <nuxt-link to="./projects/jpn-big-three"><app-project id="prfive"></app-project></nuxt-link>
       </section>
       </div>
   </div>
@@ -63,6 +64,14 @@ export default {
   background-image: url('https://github.com/biskwikman/jpn-non-citizen-map/raw/master/images/noncitizen-image.png');
   background-position: center;
   background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+#prfive .thumbnail {
+  background-image: url('https://live.staticflickr.com/7812/46638480575_1d3b6d2995_b.jpg');
+  background-position: 50% 35%;
+  background-size: 230%;
   width: 100%;
   height: 100%;
 }
