@@ -68,6 +68,10 @@ export default {
   height: auto;
 }
 
+img {
+  max-width: 100%;
+}
+
 .wording {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 200;

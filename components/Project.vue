@@ -13,10 +13,12 @@
   flex-basis: 30px;
   transition: 0.3s;
   background-color: #e0e0e0;
+  margin: 2.5vh;
 }
 
 .card:hover {
   height: 38.5vh;
-  width : 55vh;
+  width: 55vh;
+  margin: 0;  
 }
 </style>

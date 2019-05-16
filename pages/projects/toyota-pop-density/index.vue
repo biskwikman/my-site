@@ -8,11 +8,12 @@
         </h6>
       </div>
       <div class="link-pic">
-        <div class ="thumbnail" style="background-image: url('https://biskwikman.github.io/projects/toyota-density-map/toyota-choumes-color.svg')"></div>
+        <!--<div class ="thumbnail" style="background-image: url('https://biskwikman.github.io/projects/toyota-density-map/toyota-choumes-color.svg')"></div>-->
+        <img class="thumbnail" src='https://biskwikman.github.io/projects/toyota-density-map/toyota-choumes-color.svg'>
       </div>
       <div class="legend">
         <div class="legend-title">
-          <p>People per Hectare (10000 square meters)</p>
+          <p>People/Hectare (10,000 sq m)</p>
         </div>
         <div class="symbols">
           <div class="color 1" style="background-color: #fff7ec"></div>

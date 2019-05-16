@@ -8,7 +8,8 @@
         </h6>
       </div>
       <div class="link-pic">
-        <div class ="thumbnail" style="background-image: url('https://biskwikman.github.io/projects/toyota-density-map/toyota-choumes-color.svg')"></div>
+        <!--<div class ="thumbnail" style="background-image: url('https://biskwikman.github.io/projects/toyota-density-map/toyota-choumes-color.svg')"></div>-->
+        <img class="thumbnail" src='https://biskwikman.github.io/projects/toyota-density-map/toyota-choumes-color.svg'>
       </div>
       <div class="legend">
         <div class="legend-title">

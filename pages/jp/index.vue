@@ -92,10 +92,6 @@ export default {
   text-align: center;
 }
 
-.projects > * {
-  padding: 15px;
-}
-
 .container.projects {
   min-height: 50vh;
   display: flex;
