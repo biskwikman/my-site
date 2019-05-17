@@ -5,7 +5,7 @@
       <section class="container intro">
         <div>
           <h1 class="title">
-            私はマップを作るのが好きな都市計画家です
+            私はマップ、アプリ、他の地理空間情報具を作る
           </h1>
           <h2 class="subtitle">
             下記のプロジェクトを見てください
@@ -19,6 +19,7 @@
         <nuxt-link to="./projects/detroit-poverty"><app-project id="prthree"></app-project></nuxt-link>
         <a href="https://biskwikman.github.io/projects/jpn-noncitizen/"><app-project id="prfour"></app-project></a>
         <nuxt-link to="./projects/jpn-big-three"><app-project id="prfive"></app-project></nuxt-link>
+        <nuxt-link to="./projects/aus-immi-detention"><app-project id="prsix"></app-project></nuxt-link>
       </section>
       </div>
   </div>
@@ -76,6 +77,14 @@ export default {
   height: 100%;
 }
 
+#prsix .thumbnail {
+  background-image: url('https://raw.githubusercontent.com/biskwikman/my-cdn/master/my-site/aus-immi-detention-map-bw-en.png');
+  background-position: center;
+  background-size: 120%;
+  width: 100%;
+  height: 100%;
+}
+
 .bgcolor {
   display: flex;
   flex-wrap: wrap;
@@ -102,7 +111,7 @@ export default {
 }
 
 .title {
-  font-family: "M PLUS Rounded 1c", "Source Sans Pro", -apple-system,BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "M PLUS Rounded 1c", "Source Sans Pro",　sans-serif,-apple-system;
   font-weight: 300;
   font-size: 42px;
   color: #526488;
@@ -111,7 +120,7 @@ export default {
 }
 
 .subtitle {
-  font-family: "M PLUS Rounded 1c", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: "M PLUS Rounded 1c", "Source Sans Pro", sans-serif, -apple-system;
   font-weight: 200;
   font-size: 28px;
   color: #526488;
