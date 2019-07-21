@@ -43,7 +43,7 @@ export default {
   display: flex;
   justify-content: center;
   width: 100vw;
-  margin: 0 35vh 0 35vh;
+  margin: 8vh;
 }
 
 .image-container {

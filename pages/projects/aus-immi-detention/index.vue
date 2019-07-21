@@ -43,7 +43,7 @@ export default {
   display: flex;
   justify-content: center;
   width: 100vw;
-  margin: 0 35vh 0 35vh;
+  margin: 8vh;
 }
 
 .image-container {
@@ -64,7 +64,7 @@ img {
 }
 
 .wording {
-  font-family: "Quicksand", "Source Sans Pro", sans-serif;
+  font-family: "Quicksand", "Source Sans Pro", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 200;
   font-size: 25px;
   color: #526488;

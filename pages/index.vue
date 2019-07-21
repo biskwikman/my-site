@@ -113,7 +113,7 @@ export default {
 .title {
   font-family: "Quicksand", "Source Sans Pro", sans-serif, -apple-system;
   font-weight: 300;
-  font-size: 42px;
+  font-size: 3vw;
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
@@ -122,7 +122,7 @@ export default {
 .subtitle {
   font-family: "Quicksand", "Source Sans Pro", sans-serif, -apple-system;
   font-weight: 200;
-  font-size: 28px;
+  font-size: 2.5vw;
   color: #526488;
   word-spacing: 5px;
   padding: 20px;
